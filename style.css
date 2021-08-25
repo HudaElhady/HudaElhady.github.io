@@ -58,11 +58,12 @@ body {
 
 /* Sidenav */
 .sidenav {
+    /*margin-top: 80px;*/
     background-color: #fff;
     color: #333;
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
-    height: 95%;
+    height: 100vh;
     left: 0;
     overflow-x: hidden;
     padding-top: 20px;
@@ -88,10 +89,19 @@ body {
     padding-top: 20px;
 }
 
+.header {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
 .job {
     font-size: 16px;
     font-weight: meduim;
     padding-top: 10px;
+    padding-right: 20px;
 }
 
 .url, hr {
@@ -124,9 +134,9 @@ body {
 
 /* Main */
 .main {
-    margin-top: 6%;
+    margin-top: 100px;
     margin-left: 29%;
-    font-size: 28px;
+    font-size: 26px;
     padding: 0 10px;
     width: 58%;
 }
